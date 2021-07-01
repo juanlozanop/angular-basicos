@@ -16,7 +16,7 @@ import { DbzService } from './services/dbz.service';
     AgregarComponent,
   ],
   exports: [
-    MainPageComponent,
+    MainPageComponent, // NOTE Si queremos que este componente se vea hay que exportar el MainPageComponent
   ],
   imports: [
     CommonModule,

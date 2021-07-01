@@ -16,7 +16,7 @@ import { DbzModule } from './dbz/dbz.module';
     BrowserModule,
     HeroesModule,
     ContadorModule,
-    DbzModule
+    DbzModule // NOTE Si queremos ver los componentes que tienen submodulos estos se tienen que declarar en el app.module.ts que es el modulo principal
   ],
   providers: [],
   bootstrap: [AppComponent]
