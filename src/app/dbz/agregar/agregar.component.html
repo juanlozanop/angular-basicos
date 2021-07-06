@@ -2,18 +2,19 @@
 <hr>
 
 <form (ngSubmit)="agregar()">
-    <input 
-        type="text" 
-        placeholder="Nombre" 
+    <input
+        type="text"
+        placeholder="Nombre"
         name="nombre"
         [(ngModel)]="nuevo.nombre"
-    />
+
+    /> <!-- Cuando se coloca [(ngModel)] de esta manera con los parentesis es que quiero que escuchar como emitir el evento -->
     <!-- [value]="nuevo.nombre"
         (input)="cambiarNombre( $event )" -->
 
-    <input 
-        type="number" 
-        placeholder="Poder" 
+    <input
+        type="number"
+        placeholder="Poder"
         name="poder"
         [(ngModel)]="nuevo.poder"
     />
